@@ -1,0 +1,38 @@
+.App{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+.Menu ,.quiz,.end{
+  width:500px;
+  height:500px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 600;
+  border-radius: 10px;
+
+}
+.Menu button,.quiz button{
+  width:200px;
+  height:50px;
+  margin:5px;
+  
+  border-radius: 30px;
+
+}
+.options{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.options :hover{
+  background-color:green;
+}
+.next :hover{
+  background-color: black;
+}
